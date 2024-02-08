@@ -25,20 +25,24 @@ This project is deployed to AWS using AWS Amplify. For deployment, follow these 
 
 1. Set up an AWS account if you haven't already.
 2. Install and configure the Amplify CLI:
+```bash
 
 npm install -g @aws-amplify/cli
 amplify configure
 
 
 3. Initialize the Amplify project:
+```bash
 
 amplify init
 
 4. Add authentication to your project:
+```bash
 
 amplify add auth
 
 5. Deploy the project to AWS:
+```bash
 
 amplify publish
 
